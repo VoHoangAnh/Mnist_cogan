@@ -2,7 +2,7 @@
 ```
 python3 train.py
 ```
-![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnist/image_invert.jpg?raw=true)
+![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnist/156000.png?raw=true)
 
 # Reference
 Ming-Yu Liu and Oncel Tuzel. Coupled generative adversarial networks. In D. Lee, M. Sugiyama,
