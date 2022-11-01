@@ -5,7 +5,7 @@
 - Cuda11.6
 # How to train CoGAN
 ```
-python3 train.py
+$ python3 train.py
 ```
 **Rotation image**
 <br />
