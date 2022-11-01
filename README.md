@@ -8,11 +8,11 @@
 $ python3 train.py
 ```
 
-**Rotation image**
+**Negative image**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
 <br />
-**Negative image**
+**Rotated image**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
 <br />
