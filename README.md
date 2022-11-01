@@ -1,9 +1,9 @@
-# Cogan
+# CoGAN
 # Requirement
 - Python3.8
 - Pytorch 1.12
 - Cuda11.6
-# How to train 
+# How to train CoGAN
 ```
 python3 train.py
 ```
