@@ -1,1 +1,1 @@
-# Mnist_cogan
+# Cogan
