@@ -2,6 +2,7 @@
 ```
 python3 train.py
 ```
+- Rotation
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
