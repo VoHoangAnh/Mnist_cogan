@@ -2,7 +2,7 @@
 ```
 python3 train.py
 ```
-**Rotation**
+**Rotation image**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
 <br />
