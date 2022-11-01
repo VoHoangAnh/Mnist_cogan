@@ -2,15 +2,15 @@
 ```
 python3 train.py
 ```
-- **Rotation**
+**Rotation**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
 <br />
-- **Negative image**
+**Negative image**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
 <br />
-- **Edge image**
+**Edge image**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/edge_m1.png?raw=true)
 # Reference
