@@ -5,7 +5,7 @@
 - Cuda11.6
 # How to train CoGAN
 ```
-$ python3 train.py --n_epochs 10 --lr 0.0002 --batch_size 32 --latent_dim 100 --d1 "org" --d2 "edge" --model "m2" --img_size 2828
+$ python3 train.py --n_epochs 10 --lr 0.0002 --batch_size 32 --latent_dim 100 --d1 "org" --d2 "edge" --model "m2" --img_size 28
 ```
 
 **Negative image**
