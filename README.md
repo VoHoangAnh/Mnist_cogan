@@ -33,7 +33,7 @@ Layer | Domain 1 | Domain 2 | Shared|
 # How to train CoGAN
 To train CoGAN, you can type the following command as follows:
 ```
-$ python3 train.py --n_epochs 10 --lr 0.0002 --batch_size 32 --latent_dim 100 --d1 "org" --d2 "edge" --model "m2" --img_size 28
+$ python3 train.py --n_epochs 10 --lr 0.0002 --batch_size 32 --latent_dim 100 --d1 "org" --d2 "edge" --model "m1" --img_size 44
 ```
 or 
 ```
