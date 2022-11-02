@@ -34,14 +34,14 @@ $ sh run.sh
 
 The cofiguration setting: 
 <br/>
---n_epochs 200 
---lr 0.0002 
---batch_size 32 
---latent_dim 100 
---d1 "rot" 
---d2 "edge" 
---model "m1" 
---img_size 44
+- --n_epochs 200 
+- --lr 0.0002 
+- --batch_size 32 
+- --latent_dim 100 
+- --d1 "rot" 
+- --d2 "edge" 
+- --model "m1" 
+- --img_size 44
 # Results
 **Negative images**
 <br />
