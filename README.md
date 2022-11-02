@@ -34,14 +34,14 @@ $ sh run.sh
 
 The cofiguration setting: 
 <br/>
-- --n_epochs 200 
-- --lr 0.0002 
-- --batch_size 32 
-- --latent_dim 100 
-- --d1 "rot" 
-- --d2 "edge" 
-- --model "m1" 
-- --img_size 44
+- --n_epochs (int) : the number epochs for training process.  
+- --lr (float) : the learning rate.
+- --batch_size (int) : the batch size. 
+- --latent_dim (int) : the latent dimension. 
+- --d1 (string): the domain 1 includes (org: original image, edge: edge image, rot: rotated image, neg: negative image). 
+- --d2 (string): the domain 2 includes (org: original image, edge: edge image, rot: rotated image, neg: negative image).
+- --model (string): the selected models (m1 or m2). 
+- --img_size (int): the image size.
 # Results
 **Negative images**
 <br />
