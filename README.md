@@ -1,5 +1,5 @@
 # CoGAN
-# Requirement
+# Requirements
 - Python3.8
 - Pytorch 1.12
 - Cuda 11.6
