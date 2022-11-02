@@ -74,14 +74,13 @@ The configuration setting for training process:
 - --**model** (string): the selected models (m1 or m2). 
 - --**img_size** (int): the image size.
 # Results
-**Generation of negative images using CoGAN** **Generation of rotated images using CoGAN**
+**Generation of negative images, rotated images, edge images using CoGAN**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
-<br />
-**Generation of edge images using CoGAN**
-<br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/edge_m1.png?raw=true)
+
+<br />
 # References
 [1] [Ming-Yu Liu and Oncel Tuzel. Coupled generative adversarial networks. In D. Lee, M. Sugiyama,
 U. Luxburg, I. Guyon, and R. Garnett, editors, Advances in Neural Information Processing
