@@ -4,8 +4,13 @@
 - Pytorch 1.12
 - Cuda11.6
 # How to train CoGAN
+To train CoGAN, you can type the following command as follows:
 ```
 $ python3 train.py --n_epochs 10 --lr 0.0002 --batch_size 32 --latent_dim 100 --d1 "org" --d2 "edge" --model "m2" --img_size 28
+```
+or 
+```
+$ sh run.sh
 ```
 
 **Negative image**
