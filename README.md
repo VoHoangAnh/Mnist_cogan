@@ -8,6 +8,8 @@ We propose coupled generative adversarial network (CoGAN) for learning a joint d
 [[Paper]](https://arxiv.org/abs/1606.07536)
 <br />
 <br />
+In this repository, we utilized CoGAN with two version:
+- COGAN-1
 **Generative Models** 
 Layer | Domain 1 | Domain 2 | Shared|
 --- | --- | --- | ---|
@@ -24,6 +26,7 @@ Layer | Domain 1 | Domain 2 | Shared|
 2   | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Yes|
 3   | FC(500)-PReLU | FC(500)-PReLU | Yes|
 4   | FC(1)-**Sigmoid** | FC(1)-**Sigmoid** | Yes|
+- COGAN-2
 
 # Requirements
 - Python 3.8
