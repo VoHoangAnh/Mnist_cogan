@@ -43,15 +43,15 @@ The cofiguration setting:
 - --model "m1" 
 - --img_size 44
 # Results
-**Negative images**
+- **Negative images**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
 <br />
-**Rotated images**
+- **Rotated images**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
 <br />
-**Edge images**
+- **Edge images**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/edge_m1.png?raw=true)
 # References
