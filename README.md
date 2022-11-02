@@ -29,6 +29,7 @@ Layer | Domain 1 | Domain 2 | Shared|
 4   | FC(1)-**Sigmoid** | FC(1)-**Sigmoid** | Yes|
 - COGAN-2
 <br />
+
 # Requirements
 - Python 3.8
 - Pytorch 1.12
