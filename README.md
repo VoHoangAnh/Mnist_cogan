@@ -39,7 +39,7 @@ or
 $ sh run.sh
 ```
 
-The configuration setting: 
+The configuration setting for training process: 
 <br/>
 - --**n_epochs** (int) : the number epochs for training process.  
 - --**lr (float)** : the learning rate.
