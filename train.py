@@ -24,9 +24,9 @@ parser.add_argument("--batch_size", type = int, default=32)
 parser.add_argument("--latent_dim", type=int, default=100, help="dimensionality of the latent space")
 parser.add_argument("--b1", type=float, default=0.5, help="adam: decay of first order momentum of gradient")
 parser.add_argument("--b2", type=float, default=0.999, help="adam: decay of first order momentum of gradient")
-parser.add_argument("--d1", default="org", help="domain 1")
-parser.add_argument("--d2", default="edge", help="domain 2")
-parser.add_argument("--model", default="m2", help="the architecture of CoGAN")
+parser.add_argument("--d1", default="org", help="domain 1: (org: original image, edge: edge image, rot: rotated image, neg: negative image)")
+parser.add_argument("--d2", default="edge", help="domain 2: (org: original image, edge: edge image, rot: rotated image,s neg: negative image)")
+parser.add_argument("--model", default="m2", help="the architecture of CoGAN: m1 or m2")
 parser.add_argument("--img_size", type=int, default=28, help="size of each image dimension")
 parser.add_argument("--channels", type=int, default=1, help = "number of image channels")
 parser.add_argument("--sample_interval", type=int, default=1000, help="interval betwen image samples")
@@ -67,12 +67,12 @@ print(f"Runtime of the dataloader is {end - start}")
 ## Loss function
 adversarial_loss = torch.nn.MSELoss()
 
-## Initialize models: 44
+## Initialize models: image size: 44
 if opt.model=="m1":
     coupled_generators = CoGenMNIST(opt.latent_dim)
     coupled_discriminators = CoDisMNIST()
 elif opt.model=="m2":
-## Initialize models: 28
+## Initialize models: image size: 28
     coupled_generators = R_CoGANGenMNIST()
     coupled_discriminators = R_CoGANDisMNIST()
 
