@@ -29,6 +29,7 @@ Layer | Domain 1 | Domain 2 | Shared|
 - Python 3.8
 - Pytorch 1.12
 - Cuda 11.6
+- OpenCV
 # How to train CoGAN
 To train CoGAN, you can type the following command as follows:
 ```
