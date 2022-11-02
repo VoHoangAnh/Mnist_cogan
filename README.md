@@ -38,8 +38,8 @@ The configuration setting:
 - --**lr (float)** : the learning rate.
 - --**batch_size** (int) : the batch size. 
 - --**latent_dim** (int) : the latent dimension. 
-- --**d1** (string): the domain 1 includes (org: original image, edge: edge image, rot: rotated image, neg: negative image). 
-- --**d2** (string): the domain 2 includes (org: original image, edge: edge image, rot: rotated image, neg: negative image).
+- --**d1** (string): the domain 1 (org: original image, edge: edge image, rot: rotated image, neg: negative image). 
+- --**d2** (string): the domain 2 (org: original image, edge: edge image, rot: rotated image, neg: negative image).
 - --**model** (string): the selected models (m1 or m2). 
 - --**img_size** (int): the image size.
 # Results
