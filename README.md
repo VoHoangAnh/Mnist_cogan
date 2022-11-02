@@ -8,7 +8,7 @@ We propose coupled generative adversarial network (CoGAN) for learning a joint d
 [[Paper]](https://arxiv.org/abs/1606.07536)
 <br />
 <br />
-In this repository, we utilized CoGAN with two version:
+In this repository, we utilized CoGAN with two versions:
 - COGAN-1
 <br />
 
@@ -30,7 +30,21 @@ Layer | Domain 1 | Domain 2 | Shared|
 4   | FC(1)-**Sigmoid** | FC(1)-**Sigmoid** | Yes|
 - COGAN-2
 <br />
+Layer | Domain 1 | Domain 2 | Shared|
+--- | --- | --- | ---|
+1   | FC(1024)-BN-PReLU | FC(1024)-BN-PReLU | Yes|
+2   | FC(1024)-BN-PReLU | FC(1024)-BN-PReLU | Yes|
+3   | FC(1024)-BN-PReLU | FC(1024)-BN-PReLU | Yes|
+4   | FC(1024)-BN-PReLU | FC(1024)-BN-PReLU | Yes|
+5   | FC(784)-**Tanh** | FC(784)-**Tanh** | No|
 
+**Discriminative Models** 
+Layer | Domain 1 | Domain 2 | Shared|
+--- | --- | --- | ---|
+1   | Conv2D(20, K4x4, S1)-MAXPOOL(2) | Conv2D(20, K4x4, S1)-MAXPOOL(2) | No|
+2   | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Yes|
+3   | FC(500)-PReLU | FC(500)-PReLU | Yes|
+4   | FC(1)-**Sigmoid** | FC(1)-**Sigmoid** | Yes|
 # Requirements
 - Python 3.8
 - Pytorch 1.12
