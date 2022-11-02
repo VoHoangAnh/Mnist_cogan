@@ -1,5 +1,5 @@
 # Coupled Generative Adversarial Networks (CoGAN)
-The repository implemented Coupled Generative Adversarial Networks, proposed by Liu et al [1] at NIPS 2016.
+Coupled Generative Adversarial Networks, proposed by Liu et al [1] at NIPS 2016.
 ## Authors
 Ming-Yu Liu, Oncel Tuzel
 ## Abstract 
