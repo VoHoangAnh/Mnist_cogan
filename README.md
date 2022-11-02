@@ -31,7 +31,7 @@ or
 ```
 $ sh run.sh
 ```
-<br />
+</br>
 The cofiguration setting: 
 --n_epochs 200 
 --lr 0.0002 
