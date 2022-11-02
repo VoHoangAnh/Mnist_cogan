@@ -55,8 +55,8 @@ The configuration setting:
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/edge_m1.png?raw=true)
 # References
-[1] Ming-Yu Liu and Oncel Tuzel. Coupled generative adversarial networks. In D. Lee, M. Sugiyama,
+[1] [Ming-Yu Liu and Oncel Tuzel. Coupled generative adversarial networks. In D. Lee, M. Sugiyama,
 U. Luxburg, I. Guyon, and R. Garnett, editors, Advances in Neural Information Processing
-Systems, volume 29. Curran Associates, Inc., 2016 
+Systems, volume 29. Curran Associates, Inc., 2016](https://arxiv.org/abs/1606.07536) 
 <br />
 [2] https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/cogan/
