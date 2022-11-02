@@ -1,9 +1,10 @@
 # CoGAN
 Coupled Generative Adversarial Networks was proposed by Liu et al [1] at NIPS 2016.
-[ Generative Models ]
+<br />
+**Generative Models** 
 Layer | Domain 1 | Domain 2 | Shared|
 --- | --- | --- | ---|
-1   | FC(1024)-BatchNorm-PReLU | FC(1024)-BatchNorm-PReLU | Yes|
+1   | Conv2DTransposed(1024, K4x4, S1)-BatchNorm-PReLU | FC(1024)-BatchNorm-PReLU | Yes|
 
 # Requirements
 - Python3.8
