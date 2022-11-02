@@ -45,6 +45,7 @@ Layer | Domain 1 | Domain 2 | Shared|
 2   | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Yes|
 3   | FC(500)-PReLU | FC(500)-PReLU | Yes|
 4   | FC(1)-**Sigmoid** | FC(1)-**Sigmoid** | Yes|
+
 # Requirements
 - Python 3.8
 - Pytorch 1.12
