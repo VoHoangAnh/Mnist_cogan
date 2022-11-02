@@ -32,18 +32,18 @@ or
 $ sh run.sh
 ```
 # Results
-**Negative image**
+**Negative images**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
 <br />
-**Rotated image**
+**Rotated images**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
 <br />
-**Edge image**
+**Edge images**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/edge_m1.png?raw=true)
-# Reference
+# References
 [1] Ming-Yu Liu and Oncel Tuzel. Coupled generative adversarial networks. In D. Lee, M. Sugiyama,
 U. Luxburg, I. Guyon, and R. Garnett, editors, Advances in Neural Information Processing
 Systems, volume 29. Curran Associates, Inc., 2016 
