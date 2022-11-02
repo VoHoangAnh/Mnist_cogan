@@ -2,7 +2,7 @@
 # Requirement
 - Python3.8
 - Pytorch 1.12
-- Cuda11.6
+- Cuda 11.6
 # How to train CoGAN
 To train CoGAN, you can type the following command as follows:
 ```
