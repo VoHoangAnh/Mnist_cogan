@@ -2,7 +2,7 @@
 Coupled Generative Adversarial Networks was proposed by Liu et al [1] at NIPS 2016.
 Layer | Domain 1 | Domain 2 | Shared|
 --- | --- | --- | ---|
-1   | FC(1024) BatchNorm PReLU | FC(1024) BatchNorm PReLU | Yes|
+1   | FC(1024)-BatchNorm-PReLU | FC(1024)-BatchNorm-PReLU | Yes|
 
 # Requirements
 - Python3.8
