@@ -13,8 +13,8 @@ Layer | Domain 1 | Domain 2 | Shared|
 **Discriminative Models** 
 Layer | Domain 1 | Domain 2 | Shared|
 --- | --- | --- | ---|
-1   | Conv2D(20 K4x4 S1)-MAXPOOL(2) | Conv2D(20 K4x4 S1)-MAXPOOL(2) | Yes|
-2   | Conv2D(50 K5x5 S1)-MAXPOOL(2) | Conv2D(50 K5x5 S1)-MAXPOOL(2) | Yes|
+1   | Conv2D(20, K4x4, S1)-MAXPOOL(2) | Conv2D(20, K4x4, S1)-MAXPOOL(2) | Yes|
+2   | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Yes|
 3   | FC(500)-PReLU | FC(500)-PReLU | Yes|
 4   | FC(1)-**Sigmoid** | FC(1)-**Sigmoid** | Yes|
 
