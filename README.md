@@ -11,6 +11,7 @@ We propose coupled generative adversarial network (CoGAN) for learning a joint d
 In this repository, we utilized CoGAN with two version:
 - COGAN-1
 <br />
+
 **Generative Models** 
 Layer | Domain 1 | Domain 2 | Shared|
 --- | --- | --- | ---|
