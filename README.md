@@ -43,7 +43,7 @@ $ sh run.sh
 The configuration setting for training process: 
 <br/>
 - --**n_epochs** (int) : the number epochs for training process.  
-- --**lr (float)** : the learning rate.
+- --**lr** (float) : the learning rate.
 - --**batch_size** (int) : the batch size. 
 - --**latent_dim** (int) : the latent dimension. 
 - --**d1** (string): the domain 1 (org: original image, edge: edge image, rot: rotated image, neg: negative image). 
