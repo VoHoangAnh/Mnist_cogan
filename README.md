@@ -12,7 +12,7 @@ or
 ```
 $ sh run.sh
 ```
-## Results
+# Results
 **Negative image**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
