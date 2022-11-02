@@ -9,8 +9,6 @@ Layer | Domain 1 | Domain 2 | Shared|
 3   | Conv2DTransposed(256, K3x3, S2)-BN-PReLU | Conv2DTransposed(256, K3x3, S2)-BN-PReLU | Yes|
 4   | Conv2DTransposed(128, K3x3, S2)-BN-PReLU | Conv2DTransposed(128, K3x3, S2)-BN-PReLU  | Yes|
 5   | Conv2DTransposed(1, K6x6, S1)-**Tanh** | Conv2DTransposed(1, K6x6, S1)-**Tanh** | No|
-
-<br />
 **Discriminative Models** 
 
 
