@@ -77,10 +77,11 @@ The configuration setting for training process:
 1.**Generation of negative images using CoGAN**
 <br />
 ![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/156000.png?raw=true)
+![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
 <br />
 2.**Generation of rotated images using CoGAN**
 <br />
-![alt text](https://github.com/VoHoangAnh/Mnist_cogan/blob/develop/mnistm/rotate_m1.png?raw=true)
+
 <br />
 3.**Generation of edge images using CoGAN**
 <br />
