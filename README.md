@@ -10,8 +10,17 @@ Layer | Domain 1 | Domain 2 | Shared|
 4   | Conv2DTransposed(128, K3x3, S2)-BN-PReLU | Conv2DTransposed(128, K3x3, S2)-BN-PReLU  | Yes|
 5   | Conv2DTransposed(1, K6x6, S1)-**Tanh** | Conv2DTransposed(1, K6x6, S1)-**Tanh** | No|
 
+<br />
+**Discriminative Models** 
+Layer | Domain 1 | Domain 2 | Shared|
+--- | --- | --- | ---|
+1   | Conv2D(20, K4x4, S1)-MAXPOOL(2) | Conv2D(20, K4x4, S1)-MAXPOOL(2) | Yes|
+2   | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Conv2D(50, K5x5, S1)-MAXPOOL(2) | Yes|
+3   | FC(500)-PReLU | FC(500)-PReLU | Yes|
+4   | FC(1)-**Sigmoid** | FC(1)-**Sigmoid** | Yes|
+
 # Requirements
-- Python3.8
+- Python 3.8
 - Pytorch 1.12
 - Cuda 11.6
 # How to train CoGAN
