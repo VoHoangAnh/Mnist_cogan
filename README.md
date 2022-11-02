@@ -1,4 +1,4 @@
-# CoGAN
+# Coupled Generative Adversarial Networks (CoGAN)
 Coupled Generative Adversarial Networks was proposed by Liu et al [1] at NIPS 2016.
 <br />
 **Generative Models** 
