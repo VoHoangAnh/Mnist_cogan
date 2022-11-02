@@ -31,8 +31,9 @@ or
 ```
 $ sh run.sh
 ```
-</br>
+
 The cofiguration setting: 
+<br/>
 --n_epochs 200 
 --lr 0.0002 
 --batch_size 32 
