@@ -4,10 +4,10 @@ Coupled Generative Adversarial Networks was proposed by Liu et al [1] at NIPS 20
 **Generative Models** 
 Layer | Domain 1 | Domain 2 | Shared|
 --- | --- | --- | ---|
-1   | Conv2DTransposed(1024, K4x4, S1)-BatchNorm-PReLU | Conv2DTransposed(1024, K4x4, S1)-BatchNorm-PReLU | Yes|
-2   | Conv2DTransposed(512, K3x3, S2)-BatchNorm-PReLU | Conv2DTransposed(512, K3x3, S2) | Yes|
-3   | Conv2DTransposed(256, K3x3, S2)-BatchNorm-PReLU | Conv2DTransposed(256, K3x3, S2)-BatchNorm-PReLU | Yes|
-4   | Conv2DTransposed(128, K3x3, S2)-BatchNorm-PReLU | Conv2DTransposed(128, K3x3, S2) | Yes|
+1   | Conv2DTransposed(1024, K4x4, S1)-BN-PReLU | Conv2DTransposed(1024, K4x4, S1)-BN-PReLU | Yes|
+2   | Conv2DTransposed(512, K3x3, S2)-BN-PReLU | Conv2DTransposed(512, K3x3, S2) | Yes|
+3   | Conv2DTransposed(256, K3x3, S2)-BN-PReLU | Conv2DTransposed(256, K3x3, S2)-BN-PReLU | Yes|
+4   | Conv2DTransposed(128, K3x3, S2)-BN-PReLU | Conv2DTransposed(128, K3x3, S2) | Yes|
 5   | Conv2DTransposed(1, K6x6, S1)-**Tanh** | Conv2DTransposed(1, K6x6, S1)-**Tanh** | No|
 
 # Requirements
